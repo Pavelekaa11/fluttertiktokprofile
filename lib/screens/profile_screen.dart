@@ -10,6 +10,22 @@ class ProfileScreen extends StatelessWidget {
         title: Text('@EmperorXann', style: TextStyle(color: Colors.white70)),
         centerTitle: true,
         backgroundColor: Colors.black,
+        actions: [
+        IconButton(
+        icon: Icon(Icons.directions_walk_outlined, color: Colors.white),
+        onPressed: () {
+          // aksi jejak kaki
+          print('');
+        },
+        ),
+        IconButton(
+        icon: Icon(Icons.menu, color: Colors.white),
+        onPressed: () {
+          // aksi menu
+          print('');
+        },
+      ),
+    ],
       ),
       backgroundColor: Colors.black,
       body: SingleChildScrollView(
